@@ -1,6 +1,7 @@
 import { ApplicationConfig, importProvidersFrom, provideZoneChangeDetection } from '@angular/core';
 import { provideRouter, RouterModule } from '@angular/router';
 import { streamablePlugin } from '@mintplayer/streamable-player';
+import { youtubePlugin } from '@mintplayer/youtube-player';
 import { provideVideoApis } from '@mintplayer/ng-video-player';
 import { TranslateLoader, TranslateModule, TranslateService } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
